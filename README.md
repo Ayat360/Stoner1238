@@ -82,28 +82,41 @@ A login & registration system built with React and Firebase.
 
 ---
 
-## 🌐 Connect With Me
-
-<p align="left">
-  <a href="https://instagram.com/proximaa3graphics" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white" />
-  </a>
-  <a href="https://twitter.com/proximaa3" target="_blank">
-    <img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" />
-  </a>
-  <a href="https://www.linkedin.com/in/aregbe-adekunle-7265b3361" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-</p>
-
----
-
 ## ✨ PROXIMA A3
 
-> Building smart digital products through code, design, and automation.
+<p align="center">
 
----
+<svg width="260" height="260" viewBox="0 0 260 260">
+  <defs>
+    <path id="circlePath"
+      d="M130,130
+         m-100,0
+         a100,100 0 1,1 200,0
+         a100,100 0 1,1 -200,0" />
+  </defs>
 
-## 📌 Motto
+  <g>
+    <!-- rotating text ring -->
+    <text fill="#00F7FF" font-size="14" font-family="Fira Code" letter-spacing="3">
+      <textPath href="#circlePath">
+        AYAT360 • AYAT360 • AYAT360 • AYAT360 •
+      </textPath>
 
-> Simple systems. Clean design. Real impact.
+      <!-- smooth rotation -->
+      <animateTransform
+        attributeName="transform"
+        type="rotate"
+        from="0 130 130"
+        to="360 130 130"
+        dur="6s"
+        repeatCount="indefinite" />
+    </text>
+
+    <!-- center glow dot -->
+    <circle cx="130" cy="130" r="6" fill="#00F7FF">
+      <animate attributeName="r" values="4;8;4" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>
+
+</p>
